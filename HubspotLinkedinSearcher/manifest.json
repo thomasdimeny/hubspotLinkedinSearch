@@ -1,0 +1,12 @@
+{
+  "name": "LinkedInSearcherHubspot",
+  "version": "1.0",
+  "description": "Automatically search for linkedin contacts. To refresh contacts on page, press the button in the bottom left.",
+  "content_scripts": [
+    {
+      "matches": ["https://app.hubspot.com/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
